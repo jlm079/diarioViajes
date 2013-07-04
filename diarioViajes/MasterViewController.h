@@ -8,13 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class DetailViewController;
+@class TablaDias;
 
 #import <CoreData/CoreData.h>
+#import "NuevoViaje.h"
+#import "DetalleViajeViewController.h"
 
 @interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) TablaDias *tablaDias;
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;

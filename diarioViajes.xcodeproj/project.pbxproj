@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1997C5201719F51500A58360 /* DetalleViajeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1997C51F1719F51500A58360 /* DetalleViajeViewController.m */; };
+		1997C5231719F61E00A58360 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 1997C5221719F61E00A58360 /* Event.m */; };
 		19F6E64B1716CBD000168CF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6E64A1716CBD000168CF7 /* UIKit.framework */; };
 		19F6E64D1716CBD000168CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6E64C1716CBD000168CF7 /* Foundation.framework */; };
 		19F6E64F1716CBD000168CF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6E64E1716CBD000168CF7 /* CoreGraphics.framework */; };
@@ -21,10 +23,14 @@
 		19F6E6691716CBD000168CF7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F6E6671716CBD000168CF7 /* MainStoryboard_iPad.storyboard */; };
 		19F6E66C1716CBD100168CF7 /* diarioViajes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19F6E66A1716CBD000168CF7 /* diarioViajes.xcdatamodeld */; };
 		19F6E66F1716CBD100168CF7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F6E66E1716CBD100168CF7 /* MasterViewController.m */; };
-		19F6E6721716CBD100168CF7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F6E6711716CBD100168CF7 /* DetailViewController.m */; };
+		19F6E6841716D5EA00168CF7 /* NuevoViaje.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F6E6831716D5EA00168CF7 /* NuevoViaje.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1997C51E1719F51500A58360 /* DetalleViajeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalleViajeViewController.h; path = ../DetalleViajeViewController.h; sourceTree = "<group>"; };
+		1997C51F1719F51500A58360 /* DetalleViajeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalleViajeViewController.m; path = ../DetalleViajeViewController.m; sourceTree = "<group>"; };
+		1997C5211719F61E00A58360 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		1997C5221719F61E00A58360 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		19F6E6471716CBD000168CF7 /* diarioViajes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diarioViajes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F6E64A1716CBD000168CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		19F6E64C1716CBD000168CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,8 +50,8 @@
 		19F6E66B1716CBD000168CF7 /* diarioViajes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diarioViajes.xcdatamodel; sourceTree = "<group>"; };
 		19F6E66D1716CBD100168CF7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		19F6E66E1716CBD100168CF7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		19F6E6701716CBD100168CF7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		19F6E6711716CBD100168CF7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		19F6E6821716D5EA00168CF7 /* NuevoViaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoViaje.h; sourceTree = "<group>"; };
+		19F6E6831716D5EA00168CF7 /* NuevoViaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoViaje.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,13 @@
 				19F6E65C1716CBD000168CF7 /* AppDelegate.m */,
 				19F6E6641716CBD000168CF7 /* MainStoryboard_iPhone.storyboard */,
 				19F6E6671716CBD000168CF7 /* MainStoryboard_iPad.storyboard */,
+				19F6E6821716D5EA00168CF7 /* NuevoViaje.h */,
+				19F6E6831716D5EA00168CF7 /* NuevoViaje.m */,
 				19F6E66D1716CBD100168CF7 /* MasterViewController.h */,
 				19F6E66E1716CBD100168CF7 /* MasterViewController.m */,
-				19F6E6701716CBD100168CF7 /* DetailViewController.h */,
-				19F6E6711716CBD100168CF7 /* DetailViewController.m */,
-				19F6E66A1716CBD000168CF7 /* diarioViajes.xcdatamodeld */,
+				1997C51E1719F51500A58360 /* DetalleViajeViewController.h */,
+				1997C51F1719F51500A58360 /* DetalleViajeViewController.m */,
+				19F6E6811716CEA500168CF7 /* Modelo */,
 				19F6E6531716CBD000168CF7 /* Supporting Files */,
 			);
 			path = diarioViajes;
@@ -120,6 +128,16 @@
 				19F6E6621716CBD000168CF7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19F6E6811716CEA500168CF7 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				19F6E66A1716CBD000168CF7 /* diarioViajes.xcdatamodeld */,
+				1997C5211719F61E00A58360 /* Event.h */,
+				1997C5221719F61E00A58360 /* Event.m */,
+			);
+			name = Modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +211,9 @@
 				19F6E65D1716CBD000168CF7 /* AppDelegate.m in Sources */,
 				19F6E66C1716CBD100168CF7 /* diarioViajes.xcdatamodeld in Sources */,
 				19F6E66F1716CBD100168CF7 /* MasterViewController.m in Sources */,
-				19F6E6721716CBD100168CF7 /* DetailViewController.m in Sources */,
+				19F6E6841716D5EA00168CF7 /* NuevoViaje.m in Sources */,
+				1997C5201719F51500A58360 /* DetalleViajeViewController.m in Sources */,
+				1997C5231719F61E00A58360 /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +346,7 @@
 				19F6E6771716CBD100168CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
